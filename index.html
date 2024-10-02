@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>陈可珈的个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+            background-color: #f1f1f1;
+            padding: 20px 0;
+            color: white;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .Profile Image {
+            width: 300px;
+            height: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 0;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+
+        p {
+            color: #555;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kejia Chen</h1>
+            <img src="kejia_chen_profile.png" alt="Profile Image">
+            <p>freshman in <a href="https://www.scu.edu.cn/">Sichuan University</a></p>
+            <p>a future Robotics engineer</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Working Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>birthday: 2006.08.21<br>she/her <a href="https://www.unesco.org/en/gender-equality/education/stem">click to support women in STEM</a> <br>now study in Chengdu,China</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Programming: basic Python</li>
+            <li>Web Development: HTML, CSS</li>
+            <li>English: TOEFL 106 (2024.9.7)</li>
+        </ul>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Working Experience</h2>
+        <ul>
+            <li>Chairperson of the Youth Volunteer Association of <a href="http://www.hnfms.com.cn/">the First Highschool of Changsha</a></li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>QQmail: 1726625974@qq.com</p>
+        <p>Gmail: chenkajia956@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Kejia Chen]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
